@@ -2693,6 +2693,10 @@ deepmerge@^1.5.2:
   version "1.5.2"
   resolved "https://registry.yarnpkg.com/deepmerge/-/deepmerge-1.5.2.tgz#10499d868844cdad4fee0842df8c7f6f0c95a753"
 
+deepmerge@^2.0.0:
+  version "2.1.1"
+  resolved "https://registry.yarnpkg.com/deepmerge/-/deepmerge-2.1.1.tgz#e862b4e45ea0555072bf51e7fd0d9845170ae768"
+
 default-require-extensions@^2.0.0:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/default-require-extensions/-/default-require-extensions-2.0.0.tgz#f5f8fbb18a7d6d50b21f641f649ebb522cfe24f7"
@@ -5271,6 +5275,10 @@ lodash.clonedeep@^4.5.0:
 lodash.debounce@^4.0.8:
   version "4.0.8"
   resolved "https://registry.yarnpkg.com/lodash.debounce/-/lodash.debounce-4.0.8.tgz#82d79bff30a67c4005ffd5e2515300ad9ca4d7af"
+
+lodash.isplainobject@^4.0.6:
+  version "4.0.6"
+  resolved "https://registry.yarnpkg.com/lodash.isplainobject/-/lodash.isplainobject-4.0.6.tgz#7c526a52d89b45c45cc690b88163be0497f550cb"
 
 lodash.memoize@^4.1.2:
   version "4.1.2"
@@ -8293,6 +8301,18 @@ vue-loader@^15.2.4:
     loader-utils "^1.1.0"
     vue-hot-reload-api "^2.3.0"
     vue-style-loader "^4.1.0"
+
+vue-meta@^1.5.3:
+  version "1.5.3"
+  resolved "https://registry.yarnpkg.com/vue-meta/-/vue-meta-1.5.3.tgz#469353e16ad12253431930558ba245f0986ed1c9"
+  dependencies:
+    deepmerge "^2.0.0"
+    lodash.isplainobject "^4.0.6"
+    object-assign "^4.1.1"
+
+vue-observe-visibility@^0.4.1:
+  version "0.4.1"
+  resolved "https://registry.yarnpkg.com/vue-observe-visibility/-/vue-observe-visibility-0.4.1.tgz#741dfc6c7894f4f41abab9efa1a86b1eb5012b18"
 
 vue-router@^3.0.1:
   version "3.0.1"

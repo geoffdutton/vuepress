@@ -6,6 +6,8 @@
     <title>{{ title }}</title>
     <meta name="description" content="{{ description }}">
     {{{ userHeadTags }}}
+    {{{ meta.inject().title.text() }}}
+    {{{ meta.inject().meta.text() }}}
     {{{ pageMeta }}}
     {{{ renderResourceHints() }}}
     {{{ renderStyles() }}}
