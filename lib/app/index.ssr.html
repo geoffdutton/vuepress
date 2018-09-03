@@ -3,10 +3,10 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <title>{{ title }}</title>
-    {{{ userHeadTags }}}
+    {{{ meta.inject().title.text() }}}
     {{{ meta.inject().script.text() }}}
     {{{ meta.inject().meta.text() }}}
+    {{{ userHeadTags }}}
     {{{ pageMeta }}}
     {{{ renderResourceHints() }}}
     {{{ renderStyles() }}}
